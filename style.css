@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500&family=EB+Garamond&family=Pacifico&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+
+header{
+    background: url(image/4882066.jpg);
+    width: 100%;
+    height: 15rem;
+    float: none
+}
+
+#image-header{
+    float:left;
+    margin: 2.4rem 0 0 5rem;
+}
+#title_logo{
+    font-family: "Caveat", sans-serif;
+    font-size: 2.4rem;
+    position: relative;
+    top:9rem;
+    right: 10rem;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 7rem;
+    left: 85rem;
+}
+nav li{
+    display: inline;
+    margin-top: 5rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: "EB Garamond", serif;
+}
+
+
+li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+main {
+    display: flex;
+    background: url(image/13828701-nebulosidade-de-branco-neblina-ou-fumaca-no-ceu-quadriculado-escuro-background-cloudy-ou-poluicao-atmosferica-sobre-a-ilustracao-city-vector-vetor.jpg);
+
+}  
+  .block_produtos {
+    width: 30rem;
+    height: 25rem;
+    border: 2rem groove blue;;
+    margin: 7rem 2rem 5rem 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block_produtos img {
+    width: 20rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+.block_produtos h1{
+    font-size: 1.2rem;
+}
+
+
+
+#title_block2{
+    font-family: "Anton", sans-serif;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#text-block01{
+    padding: 0 0 2rem 2rem;
+    font-family: "Anton", sans-serif;
+    font-size: 1.3rem;
+    padding-right: 1.1rem;
+    color: white;
+    
+}
+
+#copyright{
+    text-align: center;
+    padding-top:3.5rem ;
+    font-family: "Righteous", sans-serif;
+    color:white
+}

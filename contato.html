@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_contato.css">
+    <link rel="shortcut icon" href="image/air-pollution.png" type="image/x-icon">
+    <title>cONTATO - SolvingO2</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="image-header" src="image/Logo.png">
+            <p id="title_logo">Solving O2</p>
+        </div>
+        <nav>
+            <ul class="container_navtext">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="problema.html">Problema</a></li>
+                <li><a href="solucao.html">Solução</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Insira aqui seu Nome e Sobrenome">
+
+            <label for="emailusuario"> Email </label>
+            <input type="email" id="emailusuario" class="input-padrao" required placeholder="Insira aqui seu email">
+
+            <label for="telefone"> Telefone </label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="Insira aqui seu Telefone">
+
+            <label for="caixa-texto-grande">Mensagem</label>
+            <textarea cols="70" rows="10" id="caixa-texto-grande" class="input-padrao" required placeholder="Digite as suas observações"></textarea>
+
+            <fieldset>
+                <legend>Como Prefere o nosso contato ??</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">Email</label>
+            
+
+                <label for="radio-telefone"><input type="radio" value="telefone" name="contato" id="radio-telefone">Telefone</label>
+            
+
+                <label for="radio-zap"><input type="radio" value="Whatsapp" name="contato" id="radio-zap" checked>Whatsapp</label>
+            
+
+                <label for="radio-sms"><input type="radio" value="sms" name="contato" id="radio-sms">Mensagem (SMS)</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Qual Horario tem preferencia para atendimento</legend>
+                <select>
+                    <option>Manha</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked> Voce deseja Receber em primeira mão as novidades via email ?</label>
+
+                <input type="submit" value="Enviar Formulário" class="enviarform">
+            </form>
+        </main>
+        <footer>
+            <div class="container_maps">
+                <p> Localização da nossa Matriz</p>
+                <iframe id="maps_container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1292.9863369877419!2d-46.653399339504375!3d-23.56421850896858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c87c4ac47b%3A0x7b518209ba3b0fc8!2sEdif%C3%ADcio%20Saint%20Honor%C3%A8!5e0!3m2!1spt-BR!2sbr!4v1684449353511!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p id="copyright">&copy; Copyright Solving O2 - 2023 </p>
+            </div>
+            <img id="image_fotter" src="image/4882066.jpg">
+        </footer>
+</body>
+</html>
